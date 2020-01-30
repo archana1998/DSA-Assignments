@@ -1,9 +1,10 @@
 #include <stdio.h>
-void swap(int *xp, int *yp) 
+
+void swap(int *x, int *y) 
 { 
-    int temp = *xp; 
-    *xp = *yp; 
-    *yp = temp; 
+    int temp = *x; 
+    *x = *y; 
+    *y = temp; 
 } 
   
 
